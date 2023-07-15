@@ -724,7 +724,7 @@ img {
 input:checked + .label-privacy > .checkbox-span {
   background-color: var(--btnact-color);
   border: none;
-  fill: var(--white-color);
+  fill: var(--cloud-color);
 }
 
 .pp-text {
