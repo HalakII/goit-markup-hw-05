@@ -531,7 +531,7 @@ img {
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--white-color);
-  filter: drop-shadow(0px 4px 4px 0px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
   padding-left: 16px;
   outline: transparent;
@@ -553,7 +553,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
 }
 
 .footer-button:hover,
@@ -724,8 +724,7 @@ img {
   fill: transparent;
 }
 
-.input-checkbox:hover,
-.input-checkbox:focus {
+.input-checkbox:checked {
   background-color: var(--btnact-color);
   border: none;
   fill: var(--white-color);
